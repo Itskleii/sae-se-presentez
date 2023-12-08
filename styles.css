@@ -1,0 +1,261 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu" ,sans-serif; 
+}
+  
+header{
+  background: #f1f1f1;
+}
+body{
+    background-image: url(images/background.png);
+    background-size: cover;
+
+}
+
+.crv{
+    height: 300px;
+    width: 350px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.ens_cvr{
+    height: 400px;
+    width: 550px;
+    border-style: solid;
+    margin-right: 40px;
+    margin: auto;
+    border-width: 1.5px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.txt_art2{
+    margin-bottom: 15px;
+}
+article{
+  border-style: solid;
+  border-width: 2px; 
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+  padding: 7px;
+  border: #2c3a47 solid 2px;
+}
+  
+  
+p{
+  max-width: 80%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.oui{
+  width: 60%;
+  padding: 7px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #D3D3D3;
+  border-radius: 10px;
+  box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.747);
+}
+
+.logo_english{
+    width: 60px;
+    height: 60px;
+
+}
+
+.logo_francais{
+    width: 50px;
+    height: 50px;
+}
+
+.logo_ejdaa{
+    height: 150px;
+    width: 275px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logoRT{
+        height: 100px;
+        width: 350px;
+        
+}
+
+.logo_supinfo{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 10px;
+}
+
+.logo_reseau{
+    width: 140px;
+    height: 140px;
+    
+}
+
+.art1_act{
+  margin-right: 2px;
+}
+
+.art3{
+  margin-left: 1px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.zilis{
+    width: 500px;
+    height: 450px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pres{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo_eth{
+    width: 200px;
+    height: 200px;
+}
+
+.logo_linkedin{
+    height: 70px;
+    width: 70px;
+    float: right;
+    margin-top: 150px;
+
+}
+
+.inner-width{
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 20px;
+    margin: auto;
+}
+  
+.menu-icon{
+    width: 50px;
+    height: 50px;
+    background: #2c3a47;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    z-index: 2;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+  
+.menu-icon:hover{
+    opacity: .9;
+    transform: scale(1.1);
+}
+  
+.navigation-menu{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3a47;
+    top: 0;
+    right: -100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .6s;
+}
+  
+.navigation-menu nav{
+    display: grid;
+}
+  
+.navigation-menu li{
+    margin: 20px 0;
+    overflow: hidden;
+}
+  
+.navigation-menu a{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    transform: translateY(40px);
+}
+  
+.navigation-menu a::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 15px;
+    background: #fd7474;
+    bottom: 0;
+    left: 0;
+    border-radius: 15px;
+    z-index: -1;
+    transition: .2s linear;
+}
+  
+.navigation-menu a:hover::before{
+    width: 100%;
+}
+  
+  
+  
+.menu-icon.active{
+    background: #f1f1f1;
+    color: #2c3a47;
+}
+  
+.navigation-menu.active{
+    right: 0;
+}
+  
+.navigation-menu.active a{
+    transform: translateY(0);
+    transition: .6s linear;
+}
+  
+.navigation-menu.active li:nth-child(1) a{
+    transition-delay: .2s;
+}
+  
+.navigation-menu.active li:nth-child(2) a{
+    transition-delay: .4s;
+}
+  
+.navigation-menu.active li:nth-child(3) a{
+    transition-delay: .6s;
+}
+  
+.navigation-menu.active li:nth-child(4) a{
+    transition-delay: .8s;
+}
+  
+.navigation-menu.active li:nth-child(5) a{
+    transition-delay: 1s;
+}

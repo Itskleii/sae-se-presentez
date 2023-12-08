@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+	
+    <title>Présentation</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+	
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+  </head>
+
+<body>
+
+  <div class="navigation-menu">
+    <nav>
+      <li><a href="index_en.html">Home</a></li>
+      <li><a href="projets_en.html">projects</a></li>
+      <li><a href="activite_en.html">activity</a></li>
+    </nav>
+  </div>
+    
+
+  <header>
+        <div class="inner-width">
+         <a href="index.html"> <img src="images/logo_fr.png" alt="english" class="logo_francais"> </a>
+        <h1>Présentation</h1>
+        <div class="menu-icon">
+        <i class="fas fa-align-right"></i>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="oui">
+
+    <article class="art1">
+      <h3>Who am I ?</h3>
+      <p>My name is Kleiton KITANI and I was born on 21 April 2005 in Mulhouse. In the first grade, I joined an abibac programme. I went to the Collège Episcopal in Zillisheim, while continuing the abibac course.</p>
+      
+      <a href="https://www.college-zillisheim.com/" target="_blank"><img src="images/zilis.jpg" alt="" class="zilis"></a>
+      <p>Finally, once I had passed my 'brevet des collèges', I went to the Lycée Jeanne d'Arc in Mulhouse. Then, in première, my specialities were mathematics, physics-chemistry and N.S.I. (Numerics and Computer Science). Finally, in my final year, I kept the mathematics and N.S.I. speciality, and I passed my baccalauréat with distinction, and got my abibac (abitur).</p>
+      
+      <a href="https://www.ejda.fr/" target="_blank"><img src="images/logo_ejda.png" alt="" class="logo_ejdaa"></a>
+      <p class="pres">I've always been passionate about IT and, having discovered the world of networking through my N.S.I. courses, this was one of the best choices for me to make to continue learning what I like. Later on, I'd like to continue my studies at an engineering school or in a master's programme.</p>
+      
+      <a href="https://www.iutcolmar.uha.fr/index.php/formations/diplomes/bachelor-universitaire-de-technologie-b-u-t-bac-3/b-u-t-reseaux-et-telecommunications/" target="_blank" > <img src="images/logo_eth.png" alt="" class="logo_eth"> </a>
+      <a href="https://fr.linkedin.com/in/kleiton-kitani-37580829b" target="_blank"> <img src="images/logo_linkedin.png" alt="" class="logo_linkedin" > </a>
+    </article>
+
+
+  </section>
+
+
+  <script>
+    $(".menu-icon").click(function(){
+      $(this).toggleClass("active");
+      $(".navigation-menu").toggleClass("active");
+      $(".menu-icon i").toggleClass("fa-times");
+    });
+  </script>
+
+
+</body>
+</html>

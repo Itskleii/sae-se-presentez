@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+	
+    <title> Activité</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+	
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+  </head>
+
+<body>
+
+    <div class="navigation-menu">
+        <nav>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="activite.html">Activité</a></li>
+        </nav>
+      </div>
+    
+
+<header>
+  <div class="inner-width">
+  <a href="activite_en.html"> <img src="images/logo_en.png" alt="english" class="logo_english"> </a>
+  <h1>La Trompette</h1>
+  <div class="menu-icon">
+  <i class="fas fa-align-right"></i>
+  </div>
+  </div>
+</header>
+      
+
+
+  <section class="oui">
+
+    <article class="art1_act">
+      <h3>Mes débuts</h3>
+      <p> 
+        J’ai débuté dès l’âge de 8 ans, au conservatoire de Mulhouse, poussé par mon père lui aussi trompettiste. Dès le début, l’instrument me plaisait et me réussissait, travailler était un plaisir pour moi, ce qui rendait l’apprentissage encore plus facile. A la fin de ma troisième année, j’ai pris une certaine avance qui m’a permis de maitriser le morceau d’examen de mon année ainsi que de l’année suivante. Ce qui m’a permis de sauter une année et m’a fait passer au cycle supérieur. À cette occasion, j’ai également reçu la mention très bien ainsi que les félicitations du jury.  </p>
+        <img src="images/conservatoire.jpg" alt="" class="crv">
+
+      </article>
+
+
+  <article class="art2">
+    <h3>Mes expériences</h3>
+    <p class="txt_art2">
+      J’entre donc au deuxième cycle, ce qui me permet en même temps d’intégrer l’ensemble des cuivres du conservatoire, qui est une pratique collective, réunissant différents instruments des cuivres. Le niveau requis pour l’ensemble des cuivrés était bien moins important ce qui me permettait de me focaliser sur ma pratique individuelle. Avec l’ensemble des cuivres, j’ai bien participé à des concerts dans des lieux prestigieux tels que le théâtre de la sinne à Mulhouse, et la filature. J’ai aussi pu jouer avec des orchestres prestigieux comme l’OSM, pour l’Orchestre Symphonique de Mulhouse.  
+    </p>
+
+    <p>
+      Aujourd’hui, n’étant plus au conservatoire, je continue malgré tout, de faire de la trompette de temps en temps, pour ne pas perdre de mon niveau et car je trouve cela dommage de complètement arrêter après plus de 9 ans de pratique. 
+    </p>
+    <img src="images/ens_cuivre.JPG" alt="" class="ens_cvr">
+
+  </article>
+
+
+
+  
+</section>
+
+  <script>
+    $(".menu-icon").click(function(){
+      $(this).toggleClass("active");
+      $(".navigation-menu").toggleClass("active");
+      $(".menu-icon i").toggleClass("fa-times");
+    });
+  </script>
+
+
+</body>
+</html>
